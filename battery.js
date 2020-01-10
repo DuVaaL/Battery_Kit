@@ -8,7 +8,7 @@
             audio.currentTime = 0; //set position to start audio
             audio.play();
 
-            let deleteTransition = function(e){     // function who delete .playing
+            let deleteTransition = function(){     // function who delete .playing
                keyDown.classList.remove('playing'); 
             }
 
